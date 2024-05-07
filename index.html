@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Medcel</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="shortcut icon" href="img/png icon.jpeg" type="image/x-icon" />
+  </head>
+  <body>
+    <main>
+      <header class="logo">
+        <img src="img/medcel logo png.png" alt="logo da medcel" />
+      </header>
+      <section class="main-container">
+        <article class="text-container">
+          <h1>
+            Miniguia de <br />
+            <span class="bold">Antibioticoterapia</span>
+          </h1>
+          <h2>
+            Tenha em mãos uma rápida maneira de pesquisar a melhor opção de
+            tratamento antimicrobiano para as principais infecções existentes.
+          </h2>
+          <h2>
+            As informações são apresentadas em forma de tabelas e resumos para
+            facilitar a consulta.
+          </h2>
+          <p>Baixe agora!</p>
+        </article>
+        <form>
+          <p>Preecha os campos para fazer o download</p>
+          <label for="name">Nome:<span class="required-field">*</span></label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Seu nome..."
+            required
+          />
+          <label for="e-mail"
+            >E-mail:<span class="required-field">*</span></label
+          >
+          <input
+            type="email"
+            name="e-mail"
+            id="e-mail"
+            placeholder="Seu melhor e-mail..."
+            required
+          />
+          <label for="phone"
+            >Celular:<span class="required-field">*</span></label
+          >
+          <input
+            type="number"
+            name="phone"
+            id="phone"
+            placeholder="DDD+"
+            required
+          />
+          <label for="birthday">Data de nascimento:</label>
+          <input type="date" name="birthday" id="birthday" required />
+          <label for="academic-education">Data de formação:</label>
+          <input
+            type="date"
+            name="academic-education"
+            id="academic-education"
+            required
+          />
+          <div class="input-radio">
+            <div class="input-container">
+              <label for="product">Você já conhece o produto?</label>
+              <div class="input-options">
+                <div class="radio">
+                  <input id="yes" type="radio" name="product" />
+                  <label for="yes">Sim</label>
+                </div>
+                <div class="radio">
+                  <input id="no" type="radio" name="product" />
+                  <label for="no">Não</label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <section class="button">
+            <input type="reset" value="Limpar" />
+            <input type="submit" value="Enviar" />
+          </section>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
